@@ -1,0 +1,84 @@
+{
+    "food": [
+        {
+            "name": "Pasta",
+            "definition": "A type of food made from wheat flour and water, typically mixed with eggs and formed into various shapes, then boiled or baked."
+        },
+        {
+            "name": "Sushi",
+            "definition": "A Japanese dish consisting of small balls or rolls of vinegar-flavored cold cooked rice served with a garnish of vegetables, egg, or raw seafood."
+        },
+        {
+            "name": "Burger",
+            "definition": "A sandwich consisting of a grilled or fried patty of ground meat, usually beef, topped with various condiments and served on a bun."
+        },
+        {
+            "name": "Pizza",
+            "definition": "An Italian dish consisting of a flat, round base of dough topped with tomato sauce, cheese, and various other ingredients, typically baked in an oven."
+        },
+        {
+            "name": "Taco",
+            "definition": "A traditional Mexican dish consisting of a folded or rolled tortilla filled with various ingredients, such as beef, chicken, cheese, beans, lettuce, and salsa."
+        },
+        {
+            "name": "Sausage",
+            "definition": "A type of seasoned meat, typically made from pork, beef, or poultry, and usually served grilled or fried as a breakfast or lunch food."
+        },
+        {
+            "name": "Curry",
+            "definition": "A dish originating in the Indian subcontinent, consisting of meat, fish, vegetables, or fruit cooked in a sauce or gravy with various spices."
+        },
+        {
+            "name": "Sushi",
+            "definition": "A Japanese dish consisting of small balls or rolls of vinegar-flavored cold cooked rice served with a garnish of vegetables, egg, or raw seafood."
+        },
+        {
+            "name": "Ice Cream",
+            "definition": "A frozen dessert made from milk or cream and sugar, typically flavored with fruit, chocolate, or other ingredients."
+        },
+        {
+            "name": "Steak",
+            "definition": "A slice of meat, typically beef, cooked by grilling or frying."
+        },
+        {
+            "name": "Butter",
+            "definition": "A dairy product made from milk or cream, typically used as a spread or for cooking and baking."
+        },
+        {
+            "name": "Bread",
+            "definition": "A staple food made from flour, water, and yeast, often baked in an oven."
+        },
+        {
+            "name": "Cheese",
+            "definition": "A dairy product made from milk curds, often used as a topping or ingredient in dishes."
+        },
+        {
+            "name": "Eggs",
+            "definition": "The oval reproductive body laid by birds, typically used in cooking and baking."
+        },
+        {
+            "name": "Rice",
+            "definition": "A cereal grain used as a staple food in many cultures, often boiled or steamed and served as a side dish or in dishes such as sushi."
+        },
+        {
+            "name": "Potato",
+            "definition": "A starchy root vegetable often boiled, baked, or fried and served as a side dish or ingredient in dishes such as mashed potatoes or potato salad."
+        },
+        {
+            "name": "Cooking",
+            "definition": "The process of preparing food for consumption by applying heat, often using techniques such as baking, frying, or boiling."
+        },
+        {
+            "name": "Menu",
+            "definition": "A list of dishes available at a restaurant or for a meal, typically including appetizers, entrees, and desserts."
+        },
+        {
+            "name": "Recipe",
+            "definition": "A set of instructions for preparing a particular dish, including a list of ingredients and the steps involved in cooking or baking it."
+        },
+        {
+            "name": "Ingredient",
+            "definition": "Any of the foods or substances that are combined to make a particular dish."
+        }
+    ]
+}

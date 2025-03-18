@@ -1,0 +1,492 @@
+h1 {
+    text-align: center;
+}
+
+#border {
+    background-color: #fffaf5;
+    border: 2px solid #575757;
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+    width: 70%;
+    height: fit-content;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.addCategory__description{
+    margin:0 0 20px 0 ;
+}
+
+.ldPage__title {
+    text-align: center;
+    font-size: 100px;
+    padding-top: 50px;
+    width: fit-content;
+    margin: 100px auto;
+}
+
+.span {
+    cursor: url('../img/default.cur'), pointer;
+    color: #5c5b5b;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.span:nth-child(1):hover {
+    color: cornflowerblue;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.span:nth-child(2):hover {
+    color: #d8d86a;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.span:nth-child(3):hover {
+    color: #71a071;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.span:nth-child(4):hover {
+    color: #ff8fc3;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.span:nth-child(5):hover {
+    color: #c23535;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.span:nth-child(6):hover {
+    color: #ff7b00;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.span:nth-child(7):hover {
+    color: #39aa9b;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.span:nth-child(8):hover {
+    color: #6666e2;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.span:nth-child(9):hover {
+    color: #7fd457;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.span:nth-child(10):hover {
+    color: #d066fa;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.span:nth-child(11):hover {
+    color: #9afa66;
+    display: inline-block;
+    transition: all 0.03s ease-in-out;
+}
+
+.ldPage__button1,
+.ldPage__button2 {
+    width: 250px;
+    font-size: 30px;
+    margin: 10px;
+    height: 60px;
+    color: white;
+    background-color: #5c5b5b;
+    border-color: #5c5b5b;
+}
+
+.ldPage__button1:hover,
+.ldPage__button1:focus {
+    border: 2px solid #fa75b3;
+    background: none;
+    color: #32633a;
+    transition: color 0.2s;
+    box-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.7s;
+}
+
+.ldPage__button2:hover,
+.ldPage__button2:focus {
+    border: 2px solid #fa8a4a;
+    background: none;
+    color: #382af5;
+    transition: color 0.2s;
+    box-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.7s;
+}
+
+.ldPage__buttonsContainer {
+    padding: 20px;
+    justify-content: center;
+    align-self: center;
+    margin: 100px auto;
+    width: 200px;
+}
+
+.is-drawn {
+    animation: draw 2s;
+    animation-fill-mode: forwards;
+}
+
+.ldPage__loginRegister {
+    letter-spacing: 2px;
+    font-size: 150%;
+    text-decoration: underline;
+    text-align: end;
+    margin: 20px;
+}
+
+
+.ldPage__loginRegister a:hover ,
+.ldPage__loginRegister a:focus {
+
+    animation: colors 2s infinite linear;
+}
+
+
+@keyframes colors {
+    0% {
+        color: #e08906;
+    }
+
+    10% {
+        color: #920000;
+    }
+
+    20% {
+        color: #92017f;
+    }
+
+    40% {
+        color: #21007a;
+    }
+
+    60% {
+        color: #005485;
+    }
+
+    80% {
+        color: #017506;
+    }
+
+    100% {
+        color: #cf9801;
+    }
+
+}
+
+@keyframes draw {
+    0% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                0 0,
+                0 0,
+                /* Second line */
+                0 0,
+                0 0,
+                0 0,
+                0 0,
+                0 0,
+                /* Third line */
+                0 0,
+                0 0,
+                0 0,
+                0 0,
+                0 0,
+                /* Fourth line */
+                0 0,
+                0 0,
+                0 0,
+                0 0);
+    }
+
+    0.1% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                0 0,
+                0 min(8%, 13px),
+                /* Second line */
+                min(8%, 13px) min(8%, 13px),
+                0 0,
+                0 0,
+                0 0,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                /* Third line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 100%,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                /* Fourth line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                0 100%,
+                min(8%, 13px) calc(100% - min(8%, 13px)));
+    }
+
+    23.9% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                /* Second line */
+                calc(100% - min(8%, 13px)) 0,
+                100% 0,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                /* Third line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 100%,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                /* Fourth line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                0 100%,
+                min(8%, 13px) calc(100% - min(8%, 13px)));
+    }
+
+    50% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                /* Second line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                /* Third line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 100%,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                /* Fourth line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                0 100%,
+                min(8%, 13px) calc(100% - min(8%, 13px)));
+    }
+
+    73.9% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                /* Second line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                /* Third line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                100% 100%,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                /* Fourth line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                0 100%,
+                min(8%, 13px) calc(100% - min(8%, 13px)));
+    }
+
+    100% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                /* Second line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                /* Third line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                100% 100%,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                /* Fourth line */
+                min(8%, 13px) min(8%, 13px),
+                0 0,
+                0 100%,
+                min(8%, 13px) calc(100% - min(8%, 13px)));
+    }
+
+}
+
+
+
+  #menu {
+    z-index: 2;
+  }
+  
+  #menu-bar {
+    width: 45px;
+    height: 40px;
+    margin: 30px 40px 20px 70px;
+    cursor: pointer;
+    /* margin-right: 5px; */
+  }
+  
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color: #242424;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+
+  }
+  
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  
+  #bar3 {
+    transform: translateY(4px);
+  }
+  
+  .nav {
+    transition: 0.3s ease;
+    display: none;
+  }
+  
+  .nav ol {
+    padding: 0 22px;
+  }
+  
+  .nav li {
+    list-style: none;
+    padding: 12px 0;
+  }
+  
+  .nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    font-weight: bold;
+  }
+  
+  .menu-bg, #menu {
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+  
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #242424, #5c5b5b);
+    border-radius: 50%;
+    transition: 0.3s ease;
+  }
+  
+  .change {
+    display: block;
+  }
+  
+  .change .bar {
+    background-color: white;
+  }
+  
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+    opacity: 0;
+  }
+  
+  .change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+  }
+  
+  .change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(60%,-30%);
+  }
+
+  ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

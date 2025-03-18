@@ -1,0 +1,42 @@
+.login{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 40%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: 2px solid #919191;
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+}
+
+.login__buttons {
+    margin: 0 30%;
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    background-color: #fa8a4a   ;
+    border-color: #5c5b5b;
+}
+
+.login__buttons:hover {
+    border: 2px solid #fa8a4a;
+    background: none;
+    color: #382af5;
+    transition: color 0.2s;
+    box-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.7s;
+}
+
+.link__CreateAcc {
+    text-align: center;
+}
+
+.back__button{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+

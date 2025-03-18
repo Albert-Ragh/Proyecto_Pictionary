@@ -1,0 +1,263 @@
+.ranking__container {
+    background-color: #fffaf5;
+    border: 2px solid #575757;
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+    width: 70%;
+    height: fit-content;
+    padding: 20px;
+    margin: 50px auto;
+    padding-top: 150px;
+}
+
+.ranking__leader {
+    background-color: #fffaf4;
+    border: 2px solid #919191;
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+    width: 35%;
+    height: 60px;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.topLeadersList>div:nth-child(1)>div:nth-child(1) {
+    background-color: gold;
+    z-index: 3;
+    position: relative;
+    font-size: 40px
+}
+
+.topLeadersList>div:nth-child(2)>div:nth-child(1) {
+    background-color: rgb(192, 192, 192);
+    position: relative;
+    top: 3px;
+    left: -25%;
+    z-index: 2;
+    height: 50px;
+    width: 30%;
+    font-size: 30px
+}
+
+.leader__name{
+    position: relative;
+    top: -61px;
+    
+}
+
+.topLeadersList>div:nth-child(3)>div:nth-child(1) {
+    background-color: rgb(252, 158, 64);
+    position: relative;
+    top: -140px;
+    left: 25%;
+    height: 40px;
+    width: 30%;
+}
+
+.leader__points {
+   
+    position: absolute;
+    top: -15px;
+    left: 32%;
+}
+
+.topLeadersList > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) {
+    top: -25px;
+}
+
+.ranking__listPlayers {
+    position: relative;
+    top: -133px;
+}
+
+.ranking__player {
+    background-color: #c3d8ff;
+    border: 2px solid rgb(69, 168, 255);
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+    width: 30%;
+    height: 50%;
+    padding: 20px;
+    margin: 30px auto;
+    font-size: 25px;
+}
+
+div.player:nth-child(odd)>span:nth-child(1)>div:nth-child(1) {
+    background-color: rgb(223, 240, 255);
+    border: 2px solid rgb(69, 168, 255);
+}
+
+.player__name {
+    position: relative;
+    top: -155px;
+    left: 82px;
+}
+
+.player__points {
+    float: right;
+    position: relative;
+    top: -231px;
+}
+
+.back__button {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+
+.fade-item {
+    transition: 2s all ease-in-out;
+    opacity: 0;
+}
+
+.fadein {
+    animation: fadeIn 0.9s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.avatar__img{
+    width: 50px;
+    position: relative;
+    top: -88px;
+    left: 25px;
+}
+
+.leader__avatar{
+    width: 90px;
+    position: absolute;
+    top: -120%;
+    left: 40%;
+}
+
+.crown {
+    position: absolute;
+    top: -170%;
+    left: 39%;
+    z-index: 2;
+}
+
+
+.topLeadersList > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) {
+    top: -2px;
+   }
+   
+   .topLeadersList > div:nth-child(2) > div:nth-child(1) > img:nth-child(2) {
+    left: 165px;
+    top: -140%;
+   }
+
+   .topLeadersList > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+    top: -195%;
+    left: 160px;
+   }
+
+   .topLeadersList > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) {
+    top: -5px;
+   }
+
+   .topLeadersList > div:nth-child(3) > div:nth-child(1) > div:nth-child(4) {
+    top: -5px;
+   }
+
+   .topLeadersList > div:nth-child(3) > div:nth-child(1) > img:nth-child(2) {
+    left: 165px;
+    top: -150%;
+   }
+
+   .topLeadersList > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) {
+    top: -210%;
+    left: 160px;
+   }
+
+   .topLeadersList > div:nth-child(3) > div:nth-child(1) {
+    left: 390px;
+   }
+
+   .topLeadersList > div:nth-child(2) > div:nth-child(1) {
+    left: -370px;
+   }
+   
+   
+
+   .topLeadersList>div:nth-child(1)>div:nth-child(1):before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+        120deg,
+        rgba(255,255,255, 0) 30%,
+        rgba(255,255,255, .8),
+        rgba(255,255,255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    animation: shine 4s infinite linear; 
+    }
+
+    @keyframes shine {
+        0% {left: -100px}
+        20% {left: 100%}
+        100% {left: 100%}
+    }
+
+
+    .topLeadersList > div:nth-child(1) > div:nth-child(1) > img:nth-child(2) {
+        width: 120px;
+        top: -150%;
+        left: 38%;
+       }
+
+
+
+       .topLeadersList > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+        top: -190%;
+        transform: rotate(25deg);
+        left: 47%;
+       }
+       
+
+       .player {
+        height: 70px;
+       }
+
+
+       .player__index {
+        position: relative;
+        top: -21px;
+        }
+       
+
+    .player__avatar {
+        position: absolute;
+        top: 119px;
+        left: 490px;
+    }
+ 
+
+    div.player:nth-child(1),
+    div.player:nth-child(2),
+    div.player:nth-child(3)
+    {
+        display: none;
+    }
+       
+    
+   
+   
+   
+   
+   
+   
+

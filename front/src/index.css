@@ -1,0 +1,55 @@
+/* @import "http://fxaeberhard.github.io/handdrawn.css/handdrawn.css"; */
+@import "./styles/handdrawn/handdrawn.css";
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: none;
+  background-color: #fffaf4;
+  width: 100%;
+  padding: 0;
+  overflow: auto;
+}
+
+* {
+  cursor: url('./img/default.cur'), pointer;
+}
+
+*:active {
+  cursor: url('./img/default-click.cur'), pointer;
+}
+
+button {
+  background-color: #5c5b5b;
+  border-color: #5c5b5b;
+}
+
+a,
+button,
+input,
+label,
+select,
+textarea {
+  cursor: url('./img/pointer.cur'), pointer;
+}
+
+
+a:hover,
+button:hover,
+input:hover,
+label:hover,
+select:hover,
+textarea:hover
+ {
+  cursor: url('./img/pointer.cur'), pointer;
+}
+
+a:active,
+button:active,
+input:active,
+label:active,
+select:active,
+textarea:active {
+  cursor: url('./img/pointer-active.cur'), pointer;
+}

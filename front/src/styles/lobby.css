@@ -1,0 +1,35 @@
+.lj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lj__form{
+    display: flex;
+    flex-direction: column;
+
+}
+.lj__form__input{
+    width: 16rem;
+    height: 3rem;
+ }
+
+ .lj__Link{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+ }
+ 
+.lj__form__btn{
+    margin: 5px;
+    font-size: 1em;
+}
+
+@media screen and (min-width: 600px) {
+    .lj__Link{
+      flex-direction: row; 
+    } 
+  
+
+  }

@@ -1,0 +1,444 @@
+.connectedUsers_title {
+    width: fit-content;
+    margin: 20px auto;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.connectedUsers__userList {
+    display: flex;
+    margin: 0 auto;
+    clear: both;
+    color: #000000;
+    padding: 10px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.userList__item {
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid #919191;
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+    width: 15%;
+    height: fit-content;
+    list-style: none;
+    padding: 20px;
+    margin: 1% auto;
+    animation: draw 2s;
+    animation-fill-mode: forwards;
+}
+
+.userList__item::before,
+.game_item::before {
+    display: none;
+}
+
+.userListInGame__item--correct {
+    color: #20bf55;
+}
+
+@keyframes draw {
+    0% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                0 0,
+                0 0,
+                /* Second line */
+                0 0,
+                0 0,
+                0 0,
+                0 0,
+                0 0,
+                /* Third line */
+                0 0,
+                0 0,
+                0 0,
+                0 0,
+                0 0,
+                /* Fourth line */
+                0 0,
+                0 0,
+                0 0,
+                0 0);
+    }
+
+    0.1% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                0 0,
+                0 min(8%, 13px),
+                /* Second line */
+                min(8%, 13px) min(8%, 13px),
+                0 0,
+                0 0,
+                0 0,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                /* Third line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 100%,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                /* Fourth line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                0 100%,
+                min(8%, 13px) calc(100% - min(8%, 13px)));
+    }
+
+    23.9% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                /* Second line */
+                calc(100% - min(8%, 13px)) 0,
+                100% 0,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                /* Third line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 100%,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                /* Fourth line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                0 100%,
+                min(8%, 13px) calc(100% - min(8%, 13px)));
+    }
+
+    50% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                /* Second line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                /* Third line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 100%,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                /* Fourth line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                0 100%,
+                min(8%, 13px) calc(100% - min(8%, 13px)));
+    }
+
+    73.9% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                /* Second line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                /* Third line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                100% 100%,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                /* Fourth line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                0 100%,
+                min(8%, 13px) calc(100% - min(8%, 13px)));
+    }
+
+    100% {
+        clip-path: polygon(
+                /* Inner */
+                min(8%, 13px) min(8%, 13px),
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                min(8%, 13px) min(8%, 13px),
+                /* First line */
+                0 0,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                /* Second line */
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                100% 100%,
+                100% 0,
+                calc(100% - min(8%, 13px)) min(8%, 13px),
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                /* Third line */
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                0 100%,
+                100% 100%,
+                calc(100% - min(8%, 13px)) calc(100% - min(8%, 13px)),
+                min(8%, 13px) calc(100% - min(8%, 13px)),
+                /* Fourth line */
+                min(8%, 13px) min(8%, 13px),
+                0 0,
+                0 100%,
+                min(8%, 13px) calc(100% - min(8%, 13px)));
+    }
+
+}
+
+
+
+/* ========================================================================================================================================================================= */
+/* =======================================================================CONECTED USERS IN GAME============================================================================ */
+/* ========================================================================================================================================================================= */
+
+
+#style-8 {
+    margin-left: 30px;
+    height: 80vh;
+    width: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#style-8::-webkit-scrollbar-track {
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+    border: 2px solid #3e3e3e;
+}
+
+#style-8::-webkit-scrollbar {
+    width: 15px;
+}
+
+#style-8::-webkit-scrollbar-thumb {
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+    background-color: #575757;
+}
+
+
+#style-Owner {
+    margin-left: 30px;
+    height: 79vh;
+    width: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#style-Owner::-webkit-scrollbar {
+    transform: translate(-600px, 100px);
+}
+
+#style-Owner::-webkit-scrollbar-track {
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+    border: 2px dashed #3e3e3e;
+}
+
+#style-Owner::-webkit-scrollbar {
+    width: 15px;
+}
+
+#style-Owner::-webkit-scrollbar-thumb {
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+    background-color: #575757;
+}
+
+.connectedUsersInGame {
+    width: 100%;
+}
+
+.connectedUsersInGameO {
+    width: 90%;
+    font-size: 150%;
+    text-align: center;
+}
+
+.game__connectedUsersInGameOwner {
+    border: 2px dashed #868686;
+}
+
+.game__connectedUsersInGameOwner .connectedUsersInGame__title {
+    transform: translate(-5%, 0);
+}
+
+.connectedUsersInGame__title {
+    width: 80%;
+    margin-left: 16%;
+}
+
+.game__connectedUsersInGame h1 {
+    margin-bottom: 0;
+}
+
+
+.userListInGame__item:before {
+    display: none;
+}
+
+.userListInGame__item {
+    text-align: center;
+    font-size: 200%;
+}
+
+.GameItem__name p {
+    margin: 0;
+}
+
+#userList {
+    padding: 0 20px;
+}
+
+.GameItem__name {
+    margin: 10px;
+    border: solid;
+    padding: 15px;
+    border-width: 2px 3px 2px 2px;
+    border-radius: 10% 10% 92% 5%/4% 10% 6% 10%;
+    transform: rotate(-1deg);
+    transition: all 0.2s;
+}
+
+.GameItem__name:hover {
+    box-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.game__connectedUsersInGameTitle {
+    width: 100%;
+}
+
+.connectedUsersInGame__span {
+    cursor: default;
+    color: #5c5b5b;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 90%;
+}
+
+.connectedUsersInGame__span:nth-child(1):hover {
+    color: cornflowerblue;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.connectedUsersInGame__span:nth-child(2):hover {
+    color: #d8d86a;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.connectedUsersInGame__span:nth-child(3):hover {
+    color: #71a071;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.connectedUsersInGame__span:nth-child(4):hover {
+    color: #ff8fc3;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.connectedUsersInGame__span:nth-child(5):hover {
+    color: #c23535;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.connectedUsersInGame__span:nth-child(6):hover {
+    color: #ff7b00;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.connectedUsersInGame__span:nth-child(7):hover {
+    color: #39aa9b;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.connectedUsersInGame__span:nth-child(8):hover {
+    color: #6666e2;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.connectedUsersInGame__span:nth-child(9):hover {
+    color: #7fd457;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.connectedUsersInGame__span:nth-child(10):hover {
+    color: #d066fa;
+    transform: translate(0px, -10px);
+    display: inline-block;
+    transition: all 0.01s ease-in-out;
+}
+
+.connectedUsersInGame__span:nth-child(11):hover {
+    color: #9afa66;
+    display: inline-block;
+    transition: all 0.03s ease-in-out;
+}
+
+.user__name {
+    position: relative;
+    top: 16px;
+    margin-left: 20px;
+}
+
+.player__data {
+    display: inline-flex;
+}

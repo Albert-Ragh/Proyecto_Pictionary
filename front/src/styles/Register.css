@@ -1,0 +1,27 @@
+.register {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 40%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: 2px solid #919191;
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+}
+
+.back__button{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+#submit__button {
+    margin: 0 30%;
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    background-color: #fa8a4a;
+    border-color: #5c5b5b;
+    }

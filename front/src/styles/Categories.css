@@ -1,0 +1,258 @@
+.addCategory {
+    font-size: 1.3rem;
+}
+
+.NoCategory{
+    height: 60vh;
+    width: 60%;
+    margin: 10vh auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 4px dashed #a5a5a5;
+    box-shadow: 20px 38px 34px -26px #00000033;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.NoCategory h1{
+    letter-spacing: 2px;
+    margin-top: 20%;
+}
+
+.NoCategory__addBtn{
+    padding: 15px 25px;
+    display: flex;
+    margin-left: 10px !important;
+    align-items: center;
+    font-size: 1.2rem;
+    transform: translate(0,40px);
+}
+
+.NoCategory__arrowBtn{
+    transform: translate(-10px,0);
+    display: flex;
+}
+
+.NoCategory__arrowBtn img{
+    opacity: 0.6;
+    margin-right: 10px;
+    animation: arrow infinite 1s;
+}
+
+fieldset{
+    width: 60%;
+    margin: 3% auto;
+    border: 2px solid #2c2c2c;
+}
+
+.addCategory__goBack{
+    margin:30px;
+}
+
+.wordSettings{
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+    border: 2px solid #bb9033;
+    box-shadow: 20px 38px 34px -26px #00000033;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.addCategory__name {
+    display: flex;
+}
+
+.addCategory__nameTA {
+    display:flex;
+    width: 100%;
+}
+
+.addCategory__description, .addCategory__Word {
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    font-weight: 600;
+}
+
+.addCategory__Word{
+    color:#a72887;
+}
+
+.addCategory__description{
+    color:#45639b;
+}
+
+.addCategory__formSpanTA {
+    margin: 0 auto;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.addCategory__nameInput::placeholder {
+    color: #a8a8a8;
+}
+
+.addCategory__Name{
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+    font-weight: 600;
+}
+
+.addCategory__legend {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    color: rgb(122, 1, 1);
+    padding: 0 10px;
+}
+
+.form__submit {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.addCategory__form {
+    position: relative;
+}
+
+#submit__button{
+    margin:0;
+}
+
+.addCategory__formSpan {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 60%;
+    padding: 0 10px;
+    border: 2px solid #979797;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.addCategory__formSpanW{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 0 10px;
+    border: 2px solid #979797;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.myCategories__table {
+    margin: 5% auto;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-right: none;
+    border-bottom: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.myCategories__th,
+.myCategories__td {
+    padding: 10px 30px;
+    border-left: none;
+    font-size: 1.2rem;
+    border: solid 2px #929292;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.myCategories__addCategoryButton {
+    font-size: 1.2rem;
+    float: right;
+    letter-spacing: 1px;
+    border: solid 2px #929292;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.myCategories__addCategoryButton button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.myCategories__tfoot td {
+    box-shadow: none;
+    border: none
+}
+
+.icon-plus {
+    transform: translate(-7px, -4px);
+}
+
+.addCategory__public {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+
+.input{
+    width: 60%;
+    border: solid 2px #929292;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.text-area {
+    width: 60%;
+    padding-left: 20px;
+
+}
+
+.add-btn, .remove-btn{
+    margin: 20px;
+}
+
+.input:focus, .text-area:focus{
+    border: 3px dashed #378137;
+}
+
+#scroll{
+    margin: 2vh auto;
+    width: 90%;
+    height: 33vh;
+    overflow: auto;
+}
+
+#scroll::-webkit-scrollbar-track {
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+    border: 2px solid #3e3e3e;
+}
+
+#scroll::-webkit-scrollbar {
+    width: 15px;
+}
+
+#scroll::-webkit-scrollbar-thumb {
+    border-radius: 255px 15px 255px 15px / 15px 255px 15px 255px;
+    background-color: #575757;
+}
+
+
+@keyframes arrow {
+    0%{
+        transform: translate(0, 0);
+    }
+    50%{
+        transform: translate(15px, 5px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
